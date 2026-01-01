@@ -16,7 +16,7 @@ Sovellus näyttää:
 
 ## Projektin rakenne
 
-.
+.  
 ├─ Streamlit.py  
 ├─ Data/  
 │ ├─ Accelerometer.csv  
