@@ -10,8 +10,11 @@ from streamlit_folium import st_folium
 
 
 # 1) Ladataan data
-df_acc = pd.read_csv("./Data/Accelerometer.csv")
-df_gps = pd.read_csv("./Data/Location.csv")
+ACC_URL = "https://raw.githubusercontent.com/msotkasi20/FysiikanLoppuProjekti/refs/heads/main/Data/Accelerometer.csv"
+GPS_URL = "https://raw.githubusercontent.com/msotkasi20/FysiikanLoppuProjekti/refs/heads/main/Data/Location.csv"
+
+df_acc = pd.read_csv(ACC_URL)
+df_gps = pd.read_csv(GPS_URL)
 
 st.title("Kinkunsulatus 25.12.2025")
 
