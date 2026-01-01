@@ -17,12 +17,11 @@ Sovellus näyttää:
 ## Projektin rakenne
 
 .
-├─ Streamlit.py
-├─ Data/
-│ ├─ Accelerometer.csv
-│ └─ Location.csv
-└─ README.md
-
+├─ Streamlit.py  
+├─ Data/  
+│ ├─ Accelerometer.csv  
+│ └─ Location.csv  
+└─ README.md  
 
 ## Riippuvuudet
 
